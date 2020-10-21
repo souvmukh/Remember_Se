@@ -1,5 +1,10 @@
 Run_0001,No Run,TC_001,standard_user,secret_sauce
-Run_0002,No Run,TC_001,locked_out_user,secret_sauce
+Run_0002,No Run,TC_00X,locked_out_user,secret_sauce
 Run_0003,No Run,TC_00X,problem_user,secret_sauce
-Run_0004,No Run,TC_001,standard_user,secret_sauce
-Run_0004,No Run,TC_002,standard_user,secret_sauce
+Run_0004,No Run,TC_00X,standard_user,secret_sauce
+Run_0005,No Run,TC_002,9,0
+Run_0006,No Run,TC_002,4,0
+Run_0007,Blocked,TC_002,1,0
+Run_0008,No Run,TC_002,2,0
+Run_0009,No Run,TC_001,standard_user,secret_sauce
+Run_0010,No Run,TC_001,standard_user,secret_sauce

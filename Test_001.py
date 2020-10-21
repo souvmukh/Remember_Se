@@ -3,6 +3,7 @@ __author__ = 'Souvik'
 Test Case Description : Example-Login to www.saucedemo.com with multiple users from csv file
 '''
 import Toolbox
+import Snapshot
 
 
 def TC_001_run():
@@ -32,6 +33,8 @@ def TC_001(username='standard_user', password='secret_sauce', val='No Run'):
         val = "Pass"
     else:
         val = "Fail"
+        Snapshot.grab_snap('TC_001_Fail')
+
     d.quit()
     return val
 

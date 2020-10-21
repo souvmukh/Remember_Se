@@ -3,7 +3,6 @@ Common Information
 2) Test ID : standard_user, locked_out_user, problem_user, performance_glitch_user
 3) Password : secret_sauce
 
-
 Tool Box Module
 1) Class Setup : Used to setup a browser connectivity and open a url
 2) Function get_data : Used to get test data from CSV file and create an output file with the status
@@ -12,8 +11,11 @@ Reporting Module
 1) Create test count of the entire run of testcases
 2) Plot a pie-chart with the details of Pass, Fail, Blocked, Not Run
 
+Snapshot Module
+1) Takes a full screen screen-shot of the active page
+2) By default it is configured to take snapshot of only Test failures.
+
 Testcases
 1) Test_001 : First Testcase
-2) Test_002 : Second Testcase ... and so on
-
-
+2) Test_002 : Second Testcase
+3) Test_003 ... and so on

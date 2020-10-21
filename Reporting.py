@@ -6,15 +6,16 @@ import csv
 def count_status():
     try:
         fname = input("Enter the file name with the .csv extension : ")
-        f = open( fname, 'r', newline='')
+        f = open(fname, 'r', newline='')
         file = csv.reader(f)
         status = dict()
         for row in file:
-            stat_count = row[2]
-            if stat_count not in status:
-                status[stat_count] = 1
-            else:
-                status[stat_count] += 1
+            if row[2] != ' ':
+                stat_count = row[2]
+                if stat_count not in status:
+                    status[stat_count] = 1
+                else:
+                    status[stat_count] += 1
         print(status)
         #plot_status(status)
 
